@@ -1,4 +1,4 @@
-# bloc_state_manage
+# 60_Days_Of_Learning with LSPP
 
 A new Flutter project.
 
