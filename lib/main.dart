@@ -1,4 +1,4 @@
-import 'package:bloc_state_manage/bloc_1.dart';
+import 'package:bloc_state_manage/screens/Neuromorphism.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +17,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: Equitable_Test());
+        home: Option_Screen());
   }
 }
