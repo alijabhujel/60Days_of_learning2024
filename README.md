@@ -1,6 +1,6 @@
 # 60_Days_Of_Learning with LSPP
 
-A new Flutter project.
+A new Flutter project with state management.
 
 ## Getting Started
 
