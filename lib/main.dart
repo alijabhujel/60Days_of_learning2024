@@ -1,6 +1,6 @@
 import 'package:bloc_state_manage/bloc/image_picker/image_picker_bloc.dart';
-import 'package:bloc_state_manage/screens/Neuromorphism.dart';
-import 'package:bloc_state_manage/ui/image_picker/image_picker.dart';
+import 'package:bloc_state_manage/bloc/to_do/todo_bloc.dart';
+import 'package:bloc_state_manage/ui/to_do/todo_screen.dart';
 import 'package:bloc_state_manage/utils/image_picker_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
         providers: [
+          BlocProvider(create: (_) => TodoBloc()),
           BlocProvider(create: (_) => ImagePickerBloc(ImagePickerUtils()))
         ],
         child: MaterialApp(
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
               colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
               useMaterial3: true,
             ),
-            home: Image_picker()));
+            home: Todo_Screen()));
     //
   }
 }
