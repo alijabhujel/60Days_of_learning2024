@@ -12,9 +12,11 @@ class _Post_ScreenState extends State<Post_Screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Posts_API'),
-      ),
-    );
+        appBar: AppBar(
+          title: Text('Posts_APIS status'),
+        ),
+        body: Container(
+          decoration: BoxDecoration(color: Colors.blueGrey),
+        ));
   }
 }
