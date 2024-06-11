@@ -56,7 +56,7 @@ class _My_ProfileState extends State<My_Profile> {
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(20),
                     boxShadow: [
-                      BoxShadow(
+                     BoxShadow(
                         blurRadius: 8,
                         color: Colors.blueGrey,
                         spreadRadius: 4,
