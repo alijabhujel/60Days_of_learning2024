@@ -1,7 +1,6 @@
 import 'package:bloc_state_manage/bloc/login/login_bloc.dart';
 import 'package:bloc_state_manage/bloc/login/login_event.dart';
 import 'package:bloc_state_manage/bloc/login/login_states.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -73,7 +72,30 @@ class _Login_ScreenState extends State<Login_Screen> {
                     onFieldSubmitted: (value) {},
                   );
                 }),
-            ElevatedButton(onPressed: () {}, child: const Text('Login'))
+            BlocListener<LoginBloc, LoginStates>(
+              listener: (context, state) {
+                if (state.loginstatus == Loginstatus.error) {
+                  ScaffoldMessenger.of(context)
+                    ..hideCurrentSnackBar()
+                    ..showSnackBar(
+                        SnackBar(content: Text(state.message.toString())));
+                }
+                if (state.loginstatus == Loginstatus.loading) {
+                  ScaffoldMessenger.of(context)
+                    ..hideCurrentSnackBar()
+                    ..showSnackBar(SnackBar(content: Text('Submitting')));
+                }
+              },
+              child: BlocBuilder<LoginBloc, LoginStates>(
+                  buildWhen: (current, previous) => false,
+                  builder: (context, state) {
+                    return ElevatedButton(
+                        onPressed: () {
+                          context.read<LoginBloc>().add(Loginapi());
+                        },
+                        child: const Text('Login'));
+                  }),
+            )
           ],
         ),
       ),

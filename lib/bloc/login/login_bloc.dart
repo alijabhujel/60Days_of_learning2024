@@ -5,11 +5,9 @@ import 'package:http/http.dart' as http;
 
 class LoginBloc extends Bloc<LoginEvent, LoginStates> {
   LoginBloc() : super(LoginStates()) {
-    on<LoginEvent>((event, emit) {
-      on<Emailchanges>(_onemailchanges);
-      on<Passwordchange>(_onpasswordchanges);
-      on<Loginapi>(_loginapi);
-    });
+    on<Emailchanges>(_onemailchanges);
+    on<Passwordchange>(_onpasswordchanges);
+    on<Loginapi>(_loginapi);
   }
 
   void _onemailchanges(Emailchanges event, Emitter<LoginStates> emit) {
