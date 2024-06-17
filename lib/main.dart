@@ -3,6 +3,8 @@ import 'package:bloc_state_manage/bloc/favouriteapp/favouriteapp_bloc.dart';
 import 'package:bloc_state_manage/bloc/image_picker/image_picker_bloc.dart';
 import 'package:bloc_state_manage/bloc/post/post_bloc.dart';
 import 'package:bloc_state_manage/bloc/to_do/todo_bloc.dart';
+import 'package:bloc_state_manage/config/routes/routes.dart';
+import 'package:bloc_state_manage/config/routes/routes_name.dart';
 import 'package:bloc_state_manage/repository/favourite_repository.dart';
 import 'package:bloc_state_manage/ui/favouriteapp/favourite_screen.dart';
 import 'package:bloc_state_manage/utils/image_picker_utils.dart';
@@ -33,7 +35,8 @@ class MyApp extends StatelessWidget {
               colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
               useMaterial3: true,
             ),
-            home: Favourite_Screen()));
+            initialRoute: Routesname.login,
+            onGenerateRoute: Routes.generateRoute));
     //
   }
 }
