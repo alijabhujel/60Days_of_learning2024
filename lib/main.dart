@@ -6,7 +6,6 @@ import 'package:bloc_state_manage/bloc/to_do/todo_bloc.dart';
 import 'package:bloc_state_manage/config/routes/routes.dart';
 import 'package:bloc_state_manage/config/routes/routes_name.dart';
 import 'package:bloc_state_manage/repository/favourite_repository.dart';
-import 'package:bloc_state_manage/ui/favouriteapp/favourite_screen.dart';
 import 'package:bloc_state_manage/utils/image_picker_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
