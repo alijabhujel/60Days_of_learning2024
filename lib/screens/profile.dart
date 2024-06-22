@@ -24,7 +24,7 @@ class _My_ProfileState extends State<My_Profile> {
             style: GoogleFonts.poppins(
               textStyle: const TextStyle(
                 fontSize: 20,
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.w600,
               ),
             ),
           ),
@@ -91,7 +91,7 @@ class _My_ProfileState extends State<My_Profile> {
                       ),
                       const Text(
                         'Cardio Specialist',
-                        style: TextStyle(fontSize: 15),
+                        style: TextStyle(fontSize: 12),
                       ),
                       const SizedBox(
                         height: 5,
@@ -100,7 +100,7 @@ class _My_ProfileState extends State<My_Profile> {
                         width: 150,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.green[400],
+                            backgroundColor: Colors.green[200],
                           ),
                           onPressed: () {},
                           child: Text(
@@ -110,7 +110,7 @@ class _My_ProfileState extends State<My_Profile> {
                         ),
                       ),
                       const Divider(
-                        color: Colors.grey,
+                        color: Colors.blue,
                       ),
                     ],
                   ),
