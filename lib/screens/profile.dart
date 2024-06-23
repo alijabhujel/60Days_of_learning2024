@@ -43,7 +43,7 @@ class _My_ProfileState extends State<My_Profile> {
           children: [
             const Padding(
               padding: EdgeInsets.only(
-                left: 15,
+                left: 20,
                 top: 20,
               ),
             ),
@@ -83,7 +83,7 @@ class _My_ProfileState extends State<My_Profile> {
                         height: 10,
                       ),
                       Text(
-                        'Maniya Sharma',
+                        'Maniya bhujel',
                         style: GoogleFonts.inter(
                           fontSize: 18,
                           fontWeight: FontWeight.w500,
@@ -100,7 +100,7 @@ class _My_ProfileState extends State<My_Profile> {
                         width: 150,
                         child: ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.green[200],
+                            backgroundColor: Colors.green[100],
                           ),
                           onPressed: () {},
                           child: Text(
@@ -110,7 +110,7 @@ class _My_ProfileState extends State<My_Profile> {
                         ),
                       ),
                       const Divider(
-                        color: Colors.blue,
+                        color: Colors.yellow,
                       ),
                     ],
                   ),
