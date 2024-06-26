@@ -2,7 +2,7 @@
 
 A new Flutter project with state management.
 
-## Getting Started
+## Learning some thing new
 Bloc State management
 MVVM artitecture
 This project is a starting point for a Flutter application.
