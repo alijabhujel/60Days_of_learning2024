@@ -6,9 +6,7 @@ A new Flutter project with state management.
 Bloc State management
 MVVM artitecture
 This project is a starting point for a Flutter application.
-
-Drift 
-clean code
+AR_core implementation
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
