@@ -1,11 +1,11 @@
 # 60_Days_Of_Learning with LSPP
 
 A new Flutter project with state management.
-
+Hello! everyone....
 ## Learning some thing new
 Bloc State management
 MVVM artitecture
-This project is a starting point for a Flutter application.
+
 AR_core implementation
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
