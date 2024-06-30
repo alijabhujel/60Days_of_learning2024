@@ -5,6 +5,7 @@ Hello! everyone....
 ## Learning some thing new
 Bloc State management
 MVVM artitecture
+Getx state management..
 
 AR_core implementation
 
