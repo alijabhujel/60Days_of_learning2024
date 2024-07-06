@@ -8,9 +8,7 @@ MVVM artitecture
 Getx state management..
 ar implmentation
 E-commerce app
-try-on
-open cv
-GAN...
+
 
 AR_core implementation
 
