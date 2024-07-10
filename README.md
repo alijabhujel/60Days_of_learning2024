@@ -1,14 +1,13 @@
 # 60_Days_Of_Learning with LSPP
 
 A new Flutter project with state management.
-Hello! everyone....
+
 ## Learning some thing new
 Bloc State management
 MVVM artitecture
 Getx state management..
 ar implmentation
 E-commerce app
-datacamp
 deepar
 camera ar
 
