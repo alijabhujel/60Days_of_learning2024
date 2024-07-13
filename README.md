@@ -12,6 +12,7 @@ deepar
 camera ar
 virtualecom
 datacamp
+shoe try on
 
 
 AR_core implementation
