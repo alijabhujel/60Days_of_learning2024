@@ -13,6 +13,7 @@ camera ar
 virtualecom
 datacamp
 shoe try on
+ar face effect
 
 
 AR_core implementation
