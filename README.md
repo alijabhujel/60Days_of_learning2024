@@ -14,6 +14,7 @@ virtualecom
 datacamp
 shoe try on
 ar face effect
+mbti test
 
 
 AR_core implementation
