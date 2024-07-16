@@ -15,7 +15,7 @@ datacamp
 shoe try on
 ar face effect
 mbti test
-
+numpy
 
 AR_core implementation
 
