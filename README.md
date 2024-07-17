@@ -16,6 +16,7 @@ shoe try on
 ar face effect
 mbti test
 numpy
+ar basics
 
 AR_core implementation
 
