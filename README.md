@@ -17,6 +17,7 @@ ar face effect
 mbti test
 numpy
 ar basics
+ar complete
 
 AR_core implementation
 
