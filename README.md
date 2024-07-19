@@ -18,6 +18,7 @@ mbti test
 numpy
 ar basics
 ar complete
+deepar
 
 AR_core implementation
 
