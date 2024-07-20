@@ -19,6 +19,7 @@ numpy
 ar basics
 ar complete
 deepar
+local notifications
 
 AR_core implementation
 
