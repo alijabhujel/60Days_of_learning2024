@@ -21,6 +21,7 @@ ar complete
 deepar
 local notifications
 implement code
+shoe try on
 
 AR_core implementation
 
