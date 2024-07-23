@@ -22,6 +22,7 @@ deepar
 local notifications
 implement code
 shoe try on
+geolocator
 
 AR_core implementation
 
