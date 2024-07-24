@@ -23,6 +23,7 @@ local notifications
 implement code
 shoe try on
 geolocator
+explore
 
 AR_core implementation
 
